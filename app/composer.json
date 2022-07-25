@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "":"src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "": "tests/"
         }
     },
     "replace": {
@@ -67,5 +67,6 @@
             "allow-contrib": false,
             "require": "6.1.*"
         }
-    }
+    },
+    "src-dir": "src/App"
 }
